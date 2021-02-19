@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="../js/option.js"></script>
+  </head>
+  <body>
+    <div>
+      <p>KISS4V のオプションページです。</p>
+      <button id="resetButton">リセット</button>
+      <div style="margin-top: 20px;">
+        <label>対象ボイスロイド</label><br>
+        <select id="voiceroidType">
+          <option value="">自動</option>
+          <option value="Voiceroid2">ボイスロイド２</option>
+          <option value="GynoidTalk">ガイノイドTalk</option>
+          <option value="YukariEx">結月ゆかり</option>
+          <option value="MakiEx">弦巻マキ</option>
+          <option value="ZunkoEx">東北ずん子</option>
+          <option value="KiritanEx">東北きりたん</option>
+          <option value="Akane">琴葉茜</option>
+          <option value="Aoi">琴葉葵</option>
+          <option value="AiEx">月読アイ</option>
+          <option value="ShoutaEx">月読ショウタ</option>
+          <option value="SeikaEx">京町セイカ</option>
+          <option value="KouEx">水奈瀬コウ</option>
+          <option value="GalacoTalk">ギャラ子</option>
+          <option value="UnaTalkEx">音街ウナ</option>
+        </select>
+      </div>
+      <div style="margin-top: 20px;">
+        <label>Pixivの読み上げ方式</label><br>
+        <select id="pixivType">
+          <option value="full-auto">オート</option>
+          <option value="manual">手動</option>
+        </select>
+      </div>
+      <div style="margin-top: 20px;">
+        <label>ティラノスクリプトの読み上げ方式</label><br>
+        <select id="tyranoType">
+          <option value="full-auto">オート</option>
+          <option value="manual">手動</option>
+        </select>
+      </div>
+      <div style="margin-top: 10px;">
+        <label>ティラノスクリプトのキャラクター名</label><br>
+        <select id="tyranoCharaType">
+          <option value="noUse">使用しない</option>
+          <option value="addFirst">キャラ名＞ を先頭に付与する</option>
+        </select>
+      </div>
+      <div style="margin-top: 20px;">
+        <p>オート：読み上げが終わると次のページへ自動で移動します。</p>
+        <p>手動：読み上げの自動化を行いません。</p>
+      </div>
+    </div>
+  </body>
+</html>
